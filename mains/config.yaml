@@ -1,0 +1,12 @@
+epochs: 3
+exp_name: easy
+scheduler: step
+use_sgd: True
+cuda: False
+momentum: 0.01
+lr: 0.001
+data: data/preprocessed
+num_points: 15
+batch_size: 32
+no_cuda: True
+num_class: 2
